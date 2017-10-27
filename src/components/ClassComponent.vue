@@ -14,11 +14,11 @@ import Component from "vue-class-component";
     },
     props: ["myProp"]
 })
-class MyComponent extends Vue {
+class ClassComponent extends Vue {
 
     message: string = "";
 
 }
 
-export default MyComponent;
+export default ClassComponent;
 </script>

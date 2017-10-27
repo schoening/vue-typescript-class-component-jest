@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropertyDecorator.test.ts has the expected html structure 1`] = `
+<div
+  class="class-component"
+>
+  
+    Hello world!
+
+</div>
+`;
