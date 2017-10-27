@@ -1,5 +1,5 @@
-const mount = require("vue-test-utils").mount;
-const ClassComponent = require("../src/components/ClassComponent.vue");
+import { mount } from "vue-test-utils";
+import ClassComponent from "../src/components/ClassComponent.vue";
 
 describe("ClassComponent.test.ts", () => {
     let wrapper;

@@ -1,5 +1,5 @@
-const mount = require("vue-test-utils").mount;
-const PropertyDecorator = require("../src/components/PropertyDecorator.vue");
+import { mount } from "vue-test-utils";
+import PropertyDecorator from "../src/components/PropertyDecorator.vue";
 
 describe("PropertyDecorator.test.ts", () => {
     let wrapper;
