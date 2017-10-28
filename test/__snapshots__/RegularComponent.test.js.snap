@@ -4,8 +4,6 @@ exports[`RegularComponent.test.ts has the expected html structure 1`] = `
 <div
   class="regular-component"
 >
-  
-    Hello world!
-
+  Hello world!
 </div>
 `;

@@ -1,7 +1,5 @@
 <template>
-    <div class="class-component">
-        {{ message }}{{ myProp }}
-    </div>
+    <div class="class-component">{{ message }}{{ myProp }}</div>
 </template>
 
 <script lang="ts">

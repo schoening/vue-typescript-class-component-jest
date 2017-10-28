@@ -4,8 +4,6 @@ exports[`PropertyDecorator.test.ts has the expected html structure 1`] = `
 <div
   class="class-component"
 >
-  
-    Hello world!
-
+  Hello world!
 </div>
 `;
