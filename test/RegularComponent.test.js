@@ -1,5 +1,4 @@
 import { mount } from "vue-test-utils";
-import Vue from "vue";
 import RegularComponent from "../src/components/RegularComponent.vue";
 
 describe("RegularComponent.test.ts", () => {
@@ -24,14 +23,14 @@ describe("RegularComponent.test.ts", () => {
         expect(wrapper.vm.myProp).toEqual("!");
     })
 
-    it("updates the .textContent to 'foo'", done => {
+    it("updates the .textContent to 'foo!'", done => {
         wrapper.vm.message = "foo"
 
         // vuejs updates the dom asynchronously
         // wait for the nextTick callback before running the test
-        Vue.nextTick(() => {
+        wrapper.vm.$nextTick(() => {
             try {
-                expect(wrapper.vm.$el.textContent).toBe('foo!')
+                expect(wrapper.text()).toBe('foo!')
                 done()
             } catch (err) {
                 done.fail(err)
