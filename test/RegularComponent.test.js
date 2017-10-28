@@ -1,7 +1,7 @@
 import { mount } from "vue-test-utils";
 import RegularComponent from "../src/components/RegularComponent.vue";
 
-describe("RegularComponent.test.ts", () => {
+describe("RegularComponent.test.js", () => {
     let wrapper;
 
     beforeEach(() => {

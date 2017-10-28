@@ -1,7 +1,7 @@
 import { mount } from "vue-test-utils";
 import ClassComponent from "../src/components/ClassComponent.vue";
 
-describe("ClassComponent.test.ts", () => {
+describe("ClassComponent.test.js", () => {
     let wrapper;
 
     beforeEach(() => {

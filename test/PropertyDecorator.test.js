@@ -1,7 +1,7 @@
 import { mount } from "vue-test-utils"
 import PropertyDecorator from "../src/components/PropertyDecorator.vue"
 
-describe("PropertyDecorator.test.ts", () => {
+describe("PropertyDecorator.test.js", () => {
     let wrapper;
 
     beforeEach(() => {
